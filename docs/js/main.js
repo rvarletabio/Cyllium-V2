@@ -1,4 +1,4 @@
 /* ---------- CONFIG ---------- */
-const API = "https://cyllium-backend.onrender.com/";   // ← cambia esto
+const API = "https://cyllium-backend.onrender.com/predict";   // ← cambia esto
 /* ---------------------------- */
 
