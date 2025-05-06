@@ -99,7 +99,8 @@
       </div>
     </div>
   </main>
-
+  
+  <script src="js/main.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
 
   <script>
@@ -129,7 +130,7 @@
 
       console.log("📤 Enviando payload:", payload);
 
-      fetch("http://localhost:5000/predict", {
+      fetch(API, {
         method: "POST",
         headers: { 
           "Content-Type": "application/json",

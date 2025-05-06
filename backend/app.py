@@ -14,6 +14,11 @@ app = Flask(__name__)
 # Configure CORS properly
 CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=False)
 
+
+@app.route("/")
+def home():
+    return "🌱 Cyllium backend online", 200
+    
 # Ruta para buscar el modelo
 model_path = ""
 # Primero intentamos buscar el modelo en el directorio actual
